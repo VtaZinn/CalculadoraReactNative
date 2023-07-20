@@ -89,6 +89,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    maxWidth: '60%',
+    margin: 'auto'
   },
   results: {
     flex: 2,
